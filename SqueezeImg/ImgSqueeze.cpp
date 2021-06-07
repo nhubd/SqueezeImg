@@ -151,8 +151,6 @@ bool CImgSqueeze::canBinarize(CxImage& img, bool& bIsBW, int& nThreshold) {
 		bIsBW = true;
 		return true;
 	}
-	//// TODO: remove temporary string
-	//return false;
 	// Calculate the number of pixels colored with levels around 1st and 2nd maximums
 	long nPixels1 = 0;
 	long nPixels2 = 0;
